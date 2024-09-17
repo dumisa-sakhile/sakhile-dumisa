@@ -60,7 +60,6 @@ const Skills = () => {
       </div>
       <br />
       <br />
-     <p>These are the technologies I use.</p>
     </>
   );
 }

@@ -17,9 +17,21 @@ const Content = () => {
       <br />
       <Experience />
       <br />
-<History />
-<br />
-<Skills />
+      <History />
+      <br />
+      <Skills />
+
+      <br />
+      <br />
+      <p className="text-sm roboto-condensed-light text-white">
+        Design inspired by
+        &nbsp;<a
+          href="https://x.com/Mejed_k"
+          target="_blank"
+          className="text-orange-600 cursor-pointer">
+          Mejed Alkoutaini
+        </a> Framer&apos;s Template
+      </p>
     </div>
   );
 }
