@@ -6,7 +6,7 @@ import Timeline from "./Timeline";
 
 const Content = () => {
   return (
-    <div className="fixed w-full h-full overflow-y-auto p-10 pt-24">
+    <div className="md:fixed w-full h-full overflow-y-auto p-10 pt-24">
       <Intro />
       <br />
       <br />

@@ -1,7 +1,7 @@
 
 const Timeline = () => {
   return (
-    <div className="grid grid-cols-3 items-start justify-center w-[30%]">
+    <div className="grid grid-cols-3 items-start flex-wrap justify-center md:w-[30%]">
       <main>
         <h1 className="text-8xl protest-guerrilla-regular">+2</h1>
         <p className="text-sm roboto-condensed-medium text-[#998F8F] w-[50%]">

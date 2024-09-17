@@ -9,7 +9,7 @@ const Intro = () => {
         Developer
       </h1>
 
-      <p className="text-[#998F8F] text-lg w-[40%]">
+      <p className="text-[#998F8F] text-lg md:w-[40%]">
         Passionate about creating SPA (Single Page Applications) using the MERN
         (MongoDB, Express, React, Node) Stack. Specializing with TailwindCSS and
         ReactJS on Frontend Development. MongoDB, Express and NodeJS on Backend.

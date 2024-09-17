@@ -3,7 +3,7 @@ const History = () => {
   return (
     <>
       <br /><br />
-      <h1 className="protest-guerrilla-regular  uppercase text-8xl w-[60%] text-white">
+      <h1 className="protest-guerrilla-regular  uppercase text-8xl md:w-[60%] text-white">
         Background
       </h1><br />
       <ol className="relative border-s border-gray-200 dark:border-gray-700">
