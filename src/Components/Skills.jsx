@@ -8,12 +8,12 @@ const Skills = () => {
 
       <br />
 
-      <div className="w-[40%] flex items-start justify-start flex-wrap gap-6">
+      <div className="w-[40%] flex items-start justify-start flex-wrap gap-6 *:bg-[#0b0808df] *:p-4 *:rounded-full">
         {/* html */}
         <a
           href="https://www.w3.org/html/"
           target="_blank"
-          className="p-4 bg-white hover:bg-slate-100 rounded-md shadow-lg">
+          >
           <img
             src="https://www.svgrepo.com/show/353884/html-5.svg"
             alt="html"
@@ -25,7 +25,7 @@ const Skills = () => {
         <a
           href="https://www.w3.org/Style/CSS/"
           target="_blank"
-          className="p-4 bg-white hover:bg-slate-100 rounded-md shadow-lg">
+          >
           <img
             src="https://www.svgrepo.com/show/452185/css-3.svg"
             alt="css"
@@ -37,7 +37,7 @@ const Skills = () => {
         <a
           href="https://www.javascript.com/"
           target="_blank"
-          className="p-4 bg-white hover:bg-slate-100 rounded-md shadow-lg">
+          >
           <img
             src="https://www.svgrepo.com/show/349419/javascript.svg"
             alt="javascript"
@@ -49,7 +49,7 @@ const Skills = () => {
         <a
           href="https://reactjs.org/"
           target="_blank"
-          className="p-4 bg-white hover:bg-slate-100 rounded-md shadow-lg">
+          >
           <img
             src="https://www.svgrepo.com/show/355190/reactjs.svg"
             alt="react"
@@ -61,7 +61,7 @@ const Skills = () => {
         <a
           href="https://nodejs.org/en/"
           target="_blank"
-          className="p-4 bg-white hover:bg-slate-100 rounded-md shadow-lg">
+          >
           <img
             src="https://www.svgrepo.com/show/303658/nodejs-1-logo.svg"
             alt="node"
@@ -73,7 +73,7 @@ const Skills = () => {
         <a
           href="https://www.mongodb.com/"
           target="_blank"
-          className="p-4 bg-white hover:bg-slate-100 rounded-md shadow-lg">
+          >
           <img
             src="https://www.svgrepo.com/show/331488/mongodb.svg"
             alt="mongodb"
@@ -85,7 +85,7 @@ const Skills = () => {
         <a
           href="https://expressjs.com/"
           target="_blank"
-          className="p-4 bg-white hover:bg-slate-100 rounded-md shadow-lg">
+          >
           <img
             src="https://www.svgrepo.com/show/376367/express.svg"
             alt="express"
@@ -97,7 +97,7 @@ const Skills = () => {
         <a
           href="https://tailwindcss.com/"
           target="_blank"
-          className="p-4 bg-white hover:bg-slate-100 rounded-md shadow-lg">
+          >
           <img
             src="https://www.svgrepo.com/show/354431/tailwindcss-icon.svg"
             alt="tailwind"
@@ -109,7 +109,7 @@ const Skills = () => {
         <a
           href="https://sass-lang.com/"
           target="_blank"
-          className="p-4 bg-white hover:bg-slate-100 rounded-md shadow-lg">
+          >
           <img
             src="https://www.svgrepo.com/show/374061/sass.svg"
             alt="sass"

@@ -23,14 +23,15 @@ const Content = () => {
 
       <br />
       <br />
-      <p className="text-sm roboto-condensed-light text-white">
-        Design inspired by
-        &nbsp;<a
+      <p className="text-sm inria-sans-regular text-white">
+        Design inspired by &nbsp;
+        <a
           href="https://x.com/Mejed_k"
           target="_blank"
           className="text-orange-600 cursor-pointer">
           Mejed Alkoutaini
-        </a> Framer&apos;s Template
+        </a>{" "}
+        Framer&apos;s Template
       </p>
     </div>
   );

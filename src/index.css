@@ -4,25 +4,42 @@
 
 @layer utilities {
 
-.roboto-condensed-light {
-  font-weight: 300; /* Light */
+.inria-sans-light {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
-.roboto-condensed-regular {
-  font-weight: 400; /* Regular */
+.inria-sans-regular {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.roboto-condensed-medium {
-  font-weight: 500; /* Medium */
+.inria-sans-bold {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
-.roboto-condensed-bold {
-  font-weight: 700; /* Bold */
+.inria-sans-light-italic {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
 }
 
-.roboto-condensed-black {
-  font-weight: 900; /* Black */
+.inria-sans-regular-italic {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
+
+.inria-sans-bold-italic {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
 
 .protest-guerrilla-regular {
   font-family: "Protest Guerrilla", sans-serif;
