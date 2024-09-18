@@ -1,4 +1,5 @@
 import Experience from "./Experience";
+import ContactForm from "./ContactForm";
 import History from "./History";
 import Intro from "./Intro";
 import Skills from "./Skills";
@@ -21,6 +22,9 @@ const Content = () => {
       <br />
       <Skills />
 
+      <br />
+      <br />
+      <ContactForm />
       <br />
       <br />
       <p className="text-sm inria-sans-regular text-white">
