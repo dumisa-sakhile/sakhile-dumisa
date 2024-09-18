@@ -8,13 +8,13 @@ const Skills = () => {
 
       <br />
 
-      <div className="md:w-[40%] flex gap-2 items-start justify-start flex-wrap md:gap-6 *:bg-[#0b0808df] *:p-4 *:rounded-full">
+      <div className="md:w-[40%] flex gap-2 items-start justify-start flex-wrap md:gap-6 *:bg-[#0b0808df] *:p-4 *:rounded-lg *:ring *:ring-black">
         {/* html */}
         <a href="https://www.w3.org/html/" target="_blank">
           <img
             src="https://www.svgrepo.com/show/353884/html-5.svg"
             alt="html"
-            className="w-8"
+            className="w-10"
           />
         </a>
 
@@ -23,7 +23,7 @@ const Skills = () => {
           <img
             src="https://www.svgrepo.com/show/452185/css-3.svg"
             alt="css"
-            className="w-8"
+            className="w-10"
           />
         </a>
 
@@ -32,7 +32,7 @@ const Skills = () => {
           <img
             src="https://www.svgrepo.com/show/349419/javascript.svg"
             alt="javascript"
-            className="w-8"
+            className="w-10"
           />
         </a>
 
@@ -41,7 +41,7 @@ const Skills = () => {
           <img
             src="https://www.svgrepo.com/show/355190/reactjs.svg"
             alt="react"
-            className="w-8"
+            className="w-10"
           />
         </a>
 
@@ -50,7 +50,7 @@ const Skills = () => {
           <img
             src="https://www.svgrepo.com/show/303658/nodejs-1-logo.svg"
             alt="node"
-            className="w-8"
+            className="w-10"
           />
         </a>
 
@@ -59,7 +59,7 @@ const Skills = () => {
           <img
             src="https://www.svgrepo.com/show/331488/mongodb.svg"
             alt="mongodb"
-            className="w-8"
+            className="w-10"
           />
         </a>
 
@@ -68,7 +68,7 @@ const Skills = () => {
           <img
             src="https://www.svgrepo.com/show/376367/express.svg"
             alt="express"
-            className="w-8"
+            className="w-10"
           />
         </a>
 
@@ -77,7 +77,7 @@ const Skills = () => {
           <img
             src="https://www.svgrepo.com/show/354431/tailwindcss-icon.svg"
             alt="tailwind"
-            className="w-8"
+            className="w-10"
           />
         </a>
 
@@ -86,7 +86,7 @@ const Skills = () => {
           <img
             src="https://www.svgrepo.com/show/374061/sass.svg"
             alt="sass"
-            className="w-8"
+            className="w-10"
           />
         </a>
       </div>

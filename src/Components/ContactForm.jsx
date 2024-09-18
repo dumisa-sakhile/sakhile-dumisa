@@ -19,12 +19,31 @@ function ContactForm() {
       <h1 className="protest-guerrilla-regular uppercase text-2xl md:text-8xl w-[60%] text-[#998f8fdf]">
         CONNECT
       </h1>
+
+      <p>Please feel free to reach out to me if you want to know more.</p>
       <br />
+     
+
+      <fieldset className="bg-[#353334] md:w-[30%] h-[60px] rounded-md ring-[1px] ring-black box-border">
+        <legend className="inria-sans-regular text-white ml-4">
+          <label htmlFor="name">What is your Name?</label>
+        </legend>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          className="w-full rounded-md focus:outline-none h-full px-4 bg-inherit capitalize"
+          autoComplete="off"
+          placeholder="Your Name"
+          required
+        />
+        <ValidationError prefix="Name" field="name" errors={state.errors} />
+      </fieldset>
       <br />
 
       <fieldset className="bg-[#353334] md:w-[30%] h-[60px] rounded-md ring-[1px] ring-black box-border">
         <legend className="inria-sans-regular text-white ml-4">
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email">What is your Email?</label>
         </legend>
         <input
           type="email"
@@ -32,7 +51,8 @@ function ContactForm() {
           id="email"
           className="w-full rounded-md focus:outline-none h-full px-4 bg-inherit"
           autoComplete="off"
-          placeholder="Email"
+          placeholder="Your Email Address"
+          required
         />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
       </fieldset>
@@ -43,7 +63,7 @@ function ContactForm() {
         className="hidden inria-sans-regular text-white ml-4">
         Message
       </label>
-      <br />
+     
       <textarea
         name="message"
         id="message"
@@ -61,7 +81,7 @@ function ContactForm() {
         <button
           type="submit"
           disabled={state.submitting}
-          className="bg-[#C5FF41] hover:bg-[#6f9c05] text-black font-bold py-2 px-4 rounded">
+          className="bg-[#C5FF41] hover:bg-[#6f9c05] text-black font-bold py-2 px-4 rounded w-full">
           Send Message
         </button>
       </div>
