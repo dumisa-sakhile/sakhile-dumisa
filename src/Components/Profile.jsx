@@ -1,12 +1,20 @@
 import Image from "/src/assets/portrait-young-african-american-man.jpg";
 import Socials from "./Socials";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 
 const Profile = () => {
   return (
-    <main className="relative w-full md:w-[344px] h-[500px] md:h-[640px] bg-white rounded-lg flex flex-col items-center py-6 justify-start gap-10 overflow-hidden">
-
-
-      <img src={Image} className="w-[70%]  md:w-[300px] rounded-lg" alt="image" />
+    <main
+      data-aos="fade-up"
+      className="relative w-full md:w-[344px] h-[500px] md:h-[640px] bg-white rounded-lg flex flex-col items-center py-6 justify-start gap-10 overflow-hidden">
+      <img
+        src={Image}
+        className="w-[70%]  md:w-[300px] rounded-lg"
+        alt="image"
+      />
 
       <aside className="flex flex-col items-center justify-center w-[450px] h-[450px] border-8 border-dashed border-orange-700 rounded-full absolute -bottom-[90px] -left-50 touch-none pointer-events-none"></aside>
 

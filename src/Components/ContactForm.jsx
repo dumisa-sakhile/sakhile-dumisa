@@ -1,5 +1,8 @@
 import { useForm, ValidationError } from "@formspree/react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
+AOS.init();
 function ContactForm() {
   const [state, handleSubmit] = useForm("xovaoaje");
   if (state.succeeded) {
@@ -22,7 +25,6 @@ function ContactForm() {
 
       <p>Please feel free to reach out to me if you want to know more.</p>
       <br />
-     
 
       <fieldset className="bg-[#353334] md:w-[30%] h-[60px] rounded-md ring-[1px] ring-black box-border">
         <legend className="inria-sans-regular text-white ml-4">
@@ -63,7 +65,7 @@ function ContactForm() {
         className="hidden inria-sans-regular text-white ml-4">
         Message
       </label>
-     
+
       <textarea
         name="message"
         id="message"

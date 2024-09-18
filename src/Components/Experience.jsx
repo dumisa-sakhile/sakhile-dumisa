@@ -1,14 +1,20 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
 
+AOS.init();
 const Experience = () => {
   return (
-    <>
-      <h1 className="protest-guerrilla-regular  uppercase text-2xl md:text-8xl w-[60%] text-[#998f8fdf]">
+    <div  data-aos="fade-up">
+      <h1
+       
+        className="protest-guerrilla-regular  uppercase text-2xl md:text-8xl w-[60%] text-[#998f8fdf]">
         Projects
       </h1>
       <br />
       <br />
-      <div className=" flex items-start justify-start gap-4 w-full md:w-[50%]">
-
+      <div
+       
+        className=" flex items-start justify-start gap-4 w-full md:w-[50%]">
         <a
           href="#"
           className="bg-[#F46C38] hover:bg-[#ca5020] w-[300px] h-[200px] rounded-lg p-10 space-y-8">
@@ -64,8 +70,8 @@ const Experience = () => {
           </p>
         </a>
       </div>
-    </>
+    </div>
   );
-}
+};
 
-export default Experience
+export default Experience;

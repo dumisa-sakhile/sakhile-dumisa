@@ -76,6 +76,6 @@ const History = () => {
       <br />
     </>
   );
-}
+};
 
-export default History
+export default History;

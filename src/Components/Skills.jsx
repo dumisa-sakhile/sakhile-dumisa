@@ -10,7 +10,7 @@ const Skills = () => {
 
       <p className="text-[#998F8F] text-lg md:w-[40%]">Basics / Fundamentals</p>
       <br />
-      <div className="md:w-[40%] flex gap-2 items-start justify-start flex-wrap md:gap-6 *:bg-[#0b0808df]  *:p-4 *:rounded-lg *:ring-[1px] *:ring-[#353334]">
+      <div className="md:w-[40%] flex gap-2 items-start justify-start flex-wrap md:gap-6 *:bg-[rgba(11,8,8,0.88)]  *:p-4 *:rounded-lg *:ring-[1px] *:ring-[#353334]">
         {/*html*/}
         <a href="https://www.w3.org/html/" target="_blank">
           <img
@@ -35,13 +35,12 @@ const Skills = () => {
             className="w-10"
           />
         </a>
-      </div><br />
+      </div>
+      <br />
 
       <p className="text-[#998F8F] text-lg md:w-[40%]">FrontEnd Development.</p>
       <br />
       <div className="md:w-[40%] flex gap-2 items-start justify-start flex-wrap md:gap-6 *:bg-[#0b0808df]  *:p-4 *:rounded-lg *:ring-[1px] *:ring-[#353334]">
-  
-
         {/* react */}
         <a href="https://reactjs.org/" target="_blank">
           <img
@@ -105,6 +104,6 @@ const Skills = () => {
       <br />
     </>
   );
-}
+};
 
-export default Skills
+export default Skills;
