@@ -7,7 +7,8 @@ const Experience = () => {
       </h1>
       <br />
       <br />
-      <div className=" flex items-start justify-start gap-4 w-[50%]">
+      <div className=" flex items-start justify-start gap-4 w-full md:w-[50%]">
+
         <a
           href="#"
           className="bg-[#F46C38] hover:bg-[#ca5020] w-[300px] h-[200px] rounded-lg p-10 space-y-8">
