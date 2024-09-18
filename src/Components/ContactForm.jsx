@@ -13,16 +13,16 @@ function ContactForm() {
   }
   return (
     <form onSubmit={handleSubmit}>
-      <h1 className="protest-guerrilla-regular uppercase text-8xl w-[60%] text-white">
+      <h1 className="protest-guerrilla-regular uppercase text-2xl md:text-8xl w-[60%] text-white">
         LET US
       </h1>
-      <h1 className="protest-guerrilla-regular uppercase text-8xl w-[60%] text-[#998f8fdf]">
+      <h1 className="protest-guerrilla-regular uppercase text-2xl md:text-8xl w-[60%] text-[#998f8fdf]">
         CONNECT
       </h1>
       <br />
       <br />
 
-      <fieldset className="bg-[#353334] w-[30%] h-[60px] rounded-md ring-[1px] ring-black box-border">
+      <fieldset className="bg-[#353334] md:w-[30%] h-[60px] rounded-md ring-[1px] ring-black box-border">
         <legend className="inria-sans-regular text-white ml-4">
           <label htmlFor="email">Email</label>
         </legend>
@@ -48,7 +48,7 @@ function ContactForm() {
         name="message"
         id="message"
         rows="6"
-        className="bg-[#353334] w-[30%] min-h-[60px] rounded-md ring-[1px] ring-black box-border px-2 py-2"
+        className="bg-[#353334] w-full md:w-[30%] min-h-[60px] rounded-md ring-[1px] ring-black box-border px-2 py-2"
         required
         placeholder="Your message goes here..."
       />
@@ -57,7 +57,7 @@ function ContactForm() {
       <br />
       <br />
 
-      <div className="flex items-start justify-start w-[30%]">
+      <div className="flex items-start justify-start md:w-[30%]">
         <button
           type="submit"
           disabled={state.submitting}
