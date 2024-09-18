@@ -2,18 +2,15 @@
 const Skills = () => {
   return (
     <>
-      <h1 className="protest-guerrilla-regular  uppercase text-8xl w-[60%] text-[#998f8fdf]">
+      <h1 className="protest-guerrilla-regular  uppercase text-2xl md:text-8xl w-[60%] text-[#998f8fdf]">
         Tech Stack
       </h1>
 
       <br />
 
-      <div className="w-[40%] flex items-start justify-start flex-wrap gap-6 *:bg-[#0b0808df] *:p-4 *:rounded-full">
+      <div className="md:w-[40%] flex gap-2 items-start justify-start flex-wrap md:gap-6 *:bg-[#0b0808df] *:p-4 *:rounded-full">
         {/* html */}
-        <a
-          href="https://www.w3.org/html/"
-          target="_blank"
-          >
+        <a href="https://www.w3.org/html/" target="_blank">
           <img
             src="https://www.svgrepo.com/show/353884/html-5.svg"
             alt="html"
@@ -22,10 +19,7 @@ const Skills = () => {
         </a>
 
         {/* css */}
-        <a
-          href="https://www.w3.org/Style/CSS/"
-          target="_blank"
-          >
+        <a href="https://www.w3.org/Style/CSS/" target="_blank">
           <img
             src="https://www.svgrepo.com/show/452185/css-3.svg"
             alt="css"
@@ -34,10 +28,7 @@ const Skills = () => {
         </a>
 
         {/* javascript */}
-        <a
-          href="https://www.javascript.com/"
-          target="_blank"
-          >
+        <a href="https://www.javascript.com/" target="_blank">
           <img
             src="https://www.svgrepo.com/show/349419/javascript.svg"
             alt="javascript"
@@ -46,10 +37,7 @@ const Skills = () => {
         </a>
 
         {/* react */}
-        <a
-          href="https://reactjs.org/"
-          target="_blank"
-          >
+        <a href="https://reactjs.org/" target="_blank">
           <img
             src="https://www.svgrepo.com/show/355190/reactjs.svg"
             alt="react"
@@ -58,10 +46,7 @@ const Skills = () => {
         </a>
 
         {/* node */}
-        <a
-          href="https://nodejs.org/en/"
-          target="_blank"
-          >
+        <a href="https://nodejs.org/en/" target="_blank">
           <img
             src="https://www.svgrepo.com/show/303658/nodejs-1-logo.svg"
             alt="node"
@@ -70,10 +55,7 @@ const Skills = () => {
         </a>
 
         {/* mongodb */}
-        <a
-          href="https://www.mongodb.com/"
-          target="_blank"
-          >
+        <a href="https://www.mongodb.com/" target="_blank">
           <img
             src="https://www.svgrepo.com/show/331488/mongodb.svg"
             alt="mongodb"
@@ -82,10 +64,7 @@ const Skills = () => {
         </a>
 
         {/* express */}
-        <a
-          href="https://expressjs.com/"
-          target="_blank"
-          >
+        <a href="https://expressjs.com/" target="_blank">
           <img
             src="https://www.svgrepo.com/show/376367/express.svg"
             alt="express"
@@ -94,10 +73,7 @@ const Skills = () => {
         </a>
 
         {/* tailwind */}
-        <a
-          href="https://tailwindcss.com/"
-          target="_blank"
-          >
+        <a href="https://tailwindcss.com/" target="_blank">
           <img
             src="https://www.svgrepo.com/show/354431/tailwindcss-icon.svg"
             alt="tailwind"
@@ -106,10 +82,7 @@ const Skills = () => {
         </a>
 
         {/* sass */}
-        <a
-          href="https://sass-lang.com/"
-          target="_blank"
-          >
+        <a href="https://sass-lang.com/" target="_blank">
           <img
             src="https://www.svgrepo.com/show/374061/sass.svg"
             alt="sass"

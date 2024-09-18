@@ -3,7 +3,7 @@ import Socials from "./Socials";
 
 const Profile = () => {
   return (
-    <main className="relative w-[344px] h-[640px] bg-white rounded-lg flex flex-col items-center py-6 justify-start gap-10 overflow-hidden">
+    <main className="relative w-[344px] h-[640px] bg-white rounded-lg flex flex-col items-center py-6 justify-start gap-10 overflow-hidden scale-[.7] md:scale-[1]">
       <img src={Image} className="w-[300px] rounded-lg" alt="image" />
 
       <aside className="flex flex-col items-center justify-center w-[450px] h-[450px] border-8 border-dashed border-orange-700 rounded-full absolute -bottom-[90px] -left-50 touch-none pointer-events-none"></aside>

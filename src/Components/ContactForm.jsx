@@ -5,7 +5,7 @@ function ContactForm() {
   if (state.succeeded) {
     return (
       <div
-        className="p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400 w-[40%]"
+        className="p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400 md:w-[40%]"
         role="alert">
         <span className="font-medium">Successfully Sent!</span> Thank you for your message, I will get back to you shortly.
       </div>
