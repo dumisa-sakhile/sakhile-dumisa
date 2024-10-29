@@ -18,12 +18,12 @@ const Profile = () => {
 
       <aside className="flex flex-col items-center justify-center w-[450px] h-[450px] border-8 border-dashed border-orange-700 rounded-full absolute -bottom-[90px] -left-50 touch-none pointer-events-none"></aside>
 
-      <h1 className="protest-guerrilla-regular uppercase text-4xl text-black">
+      <h1 className="oswald uppercase text-4xl text-black">
         Sakhile Dumisa
       </h1>
 
       <p className="text-lg inria-sans-regular w-[90%] text-gray-600 text-center">
-        An intermediate MERN (MongoDB, Express, React, Node) Stack Developer
+        An intermediate MERN (MongoDB, Express, React, Node) Stack & Next.js Developer
       </p>
 
       <Socials />

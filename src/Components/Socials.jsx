@@ -43,7 +43,7 @@ const Socials = () => {
 
       {/* LinkedIn */}
       <a
-        href="https://www.linkedin.com/in/sakhile-dumisa-851674327"
+        href="https://www.linkedin.com/in/sakhile-dumisa"
         target="_blank"
         className=" w-8 h-8 rounded-lg ">
         <svg
