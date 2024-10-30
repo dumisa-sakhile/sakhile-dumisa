@@ -22,13 +22,13 @@ const Profile = () => {
         Sakhile Dumisa
       </h1>
 
-      <p className="text-lg inria-sans-regular w-[90%] text-gray-600 text-center">
+      <p className="text-lg inter-regular w-[90%] text-gray-600 text-center">
         An intermediate MERN (MongoDB, Express, React, Node) Stack & Next.js Developer
       </p>
 
       <Socials />
 
-      <p className="text-sm text-center inria-sans-regular text-black">
+      <p className="text-sm text-center inter-regular text-black">
         Photograph by&nbsp;
         <a
           href="https://www.freepik.com/free-photo/portrait-young-african-american-man_13611638.htm#fromView=search&page=1&position=16&uuid=f923919f-79c8-4eb9-8dce-743319d24e6a"

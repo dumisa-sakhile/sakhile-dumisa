@@ -16,7 +16,7 @@ const Intro = () => {
         Developer
       </h1>
 
-      <p data-aos="fade-up" className="text-[#998F8F] text-lg md:w-[40%]">
+      <p data-aos="fade-up" className="text-[#998F8F] text-lg md:w-[40%] inter-regular">
         Passionate about creating SPA (Single Page Applications) using the MERN
         (MongoDB, Express, React, Node) Stack & Next.js. Specializing with TailwindCSS and
         ReactJS on Frontend Development. SQL,MySQL, Postgres, SQLite, MongoDB, Express and NodeJS on Backend.

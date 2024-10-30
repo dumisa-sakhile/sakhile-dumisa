@@ -27,7 +27,7 @@ function ContactForm() {
       <br />
 
       <fieldset className="bg-[#353334] md:w-[30%] h-[60px] rounded-md ring-[1px] ring-black box-border">
-        <legend className="inria-sans-regular text-white ml-4">
+        <legend className="inter-regular text-white ml-4">
           <label htmlFor="name">What is your Name?</label>
         </legend>
         <input
@@ -44,7 +44,7 @@ function ContactForm() {
       <br />
 
       <fieldset className="bg-[#353334] md:w-[30%] h-[60px] rounded-md ring-[1px] ring-black box-border">
-        <legend className="inria-sans-regular text-white ml-4">
+        <legend className="inter-regular text-white ml-4">
           <label htmlFor="email">What is your Email?</label>
         </legend>
         <input
@@ -62,7 +62,7 @@ function ContactForm() {
 
       <label
         htmlFor="message"
-        className="hidden inria-sans-regular text-white ml-4">
+        className="hidden inter-regular text-white ml-4">
         Message
       </label>
 

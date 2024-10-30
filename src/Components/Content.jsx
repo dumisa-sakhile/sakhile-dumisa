@@ -27,7 +27,7 @@ const Content = () => {
       <ContactForm />
       <br />
       <br />
-      <p className="text-sm oswald text-white text-center w-[25%]">
+      <p className="text-sm oswald text-white text-center w-full md:w-[25%] ">
         Design inspired by &nbsp;
         <a
           href="https://x.com/Mejed_k"

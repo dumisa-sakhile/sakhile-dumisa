@@ -4,43 +4,66 @@
 
 @layer utilities {
 
-.inria-sans-light {
-  font-family: "Inria Sans", sans-serif;
-  font-weight: 300;
+/* Light Variations */
+.inter-light {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300; /* Light */
   font-style: normal;
 }
 
-.inria-sans-regular {
-  font-family: "Inria Sans", sans-serif;
-  font-weight: 400;
+.inter-extra-light {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200; /* Extra Light */
   font-style: normal;
 }
 
-.inria-sans-bold {
-  font-family: "Inria Sans", sans-serif;
-  font-weight: 700;
+/* Regular Variations */
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Regular */
   font-style: normal;
 }
 
-.inria-sans-light-italic {
-  font-family: "Inria Sans", sans-serif;
-  font-weight: 300;
-  font-style: italic;
+/* Medium Variations */
+.inter-medium {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500; /* Medium */
+  font-style: normal;
 }
 
-.inria-sans-regular-italic {
-  font-family: "Inria Sans", sans-serif;
-  font-weight: 400;
-  font-style: italic;
+/* Semi-Bold Variations */
+.inter-semi-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600; /* Semi-Bold */
+  font-style: normal;
 }
 
-.inria-sans-bold-italic {
-  font-family: "Inria Sans", sans-serif;
-  font-weight: 700;
-  font-style: italic;
+/* Bold Variations */
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Bold */
+  font-style: normal;
 }
 
+/* Extra-Bold Variations */
+.inter-extra-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800; /* Extra Bold */
+}
 
+/* Black Variations */
+.inter-black {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900; /* Black */
+}
 .oswald {
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
