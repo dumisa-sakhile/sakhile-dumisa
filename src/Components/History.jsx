@@ -4,7 +4,7 @@ const History = () => {
     <>
       <br />
       <br />
-      <h1 className="oswald  uppercase text-2xl md:text-8xl md:w-[60%] text-white">
+      <h1 className="oswald  uppercase text-8xl md:w-[60%] text-white">
         Background
       </h1>
       <br />

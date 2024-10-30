@@ -16,10 +16,10 @@ function ContactForm() {
   }
   return (
     <form onSubmit={handleSubmit}>
-      <h1 className="oswald uppercase text-2xl md:text-8xl w-[60%] text-white">
+      <h1 className="oswald uppercase text-8xl w-[60%] text-white">
         LET US
       </h1>
-      <h1 className="oswald uppercase text-2xl md:text-8xl w-[60%] text-[#998f8fdf]">
+      <h1 className="oswald uppercase text-8xl w-[60%] text-[#998f8fdf]">
         CONNECT
       </h1>
 
@@ -27,7 +27,7 @@ function ContactForm() {
       <br />
 
       <fieldset className="bg-[#353334] md:w-[30%] h-[60px] rounded-md ring-[1px] ring-black box-border">
-        <legend className="inter-regular text-white ml-4">
+        <legend className="text-sm text-white ml-4">
           <label htmlFor="name">What is your Name?</label>
         </legend>
         <input
@@ -44,7 +44,7 @@ function ContactForm() {
       <br />
 
       <fieldset className="bg-[#353334] md:w-[30%] h-[60px] rounded-md ring-[1px] ring-black box-border">
-        <legend className="inter-regular text-white ml-4">
+        <legend className="text-sm text-white ml-4">
           <label htmlFor="email">What is your Email?</label>
         </legend>
         <input

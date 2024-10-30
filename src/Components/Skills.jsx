@@ -4,7 +4,7 @@ import "tippy.js/dist/tippy.css";
 const Skills = () => {
   return (
     <>
-      <h1 className="oswald  uppercase text-2xl md:text-8xl w-[60%] text-[#998f8fdf]">
+      <h1 className="oswald  uppercase text-8xl w-[60%] text-[#998f8fdf]">
         Tech Stack
       </h1>
       <p>These are the technologies I have experience with.</p>
