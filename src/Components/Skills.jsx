@@ -7,6 +7,7 @@ const Skills = () => {
       <h1 className="oswald  uppercase text-8xl w-[60%] text-[#998f8fdf]">
         Tech Stack
       </h1>
+      <br />
       <p>These are the technologies I have experience with.</p>
       <br />
 

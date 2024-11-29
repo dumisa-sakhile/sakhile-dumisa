@@ -8,21 +8,61 @@ const Experience = () => {
       <h1 className="oswald  uppercase text-8xl w-[60%] text-[#998f8fdf]">
         Projects
       </h1>
+
+      <br />
+      <p className="text-[#998F8F] text-lg md:w-[40%] inter-regular">
+        Please note that Cinema Land is the latest and upgraded version of
+        Cinema Vibes.
+      </p>
       <br />
       <br />
       <div className=" flex items-start flex-wrap lg:flex-nowrap justify-start gap-4 w-full md:w-[50%]">
         <div className="flex rounded-lg border border-orange-700 bg-orange-600 flex-col max-w-sm">
           <div className="flex h-full flex-col justify-center gap-4 p-6">
             <h5 className="text-2xl font-bold tracking-tight text-black">
-              Cinema Vibes
+              Cinema Land
             </h5>
             <p className="font-normal text-black text-sm">
-              Experience the ultimate cinematic journey with Cinema Vibes. Get
-              hooked on our expertly curated movie recommendations, featuring
-              similar titles, captivating summaries, and thrilling trailers.
-              Find your new favorite film and vibe with the community of movie
-              lovers!
+              Discover your next favorite film! Cinema Land is your ultimate
+              destination for movie reviews, ratings, and recommendations.
+              Explore now!
             </p>
+            <div className="flex items-center flex-wrap gap-2 justify-start *:capitalize">
+              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+                ReactJS
+              </span>
+              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+                TailwindCSS
+              </span>
+              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+                TypeScript
+              </span>
+              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+                Framer Motion
+              </span>
+              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+                React-router-dom
+              </span>
+              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+                React-helmet-async
+              </span>
+              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+                Tanstack Query
+              </span>
+              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+                Axios
+              </span>
+              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+                Shadcn-ui
+              </span>
+              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+                TMDB API
+              </span>
+              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+                YouTube API
+              </span>
+            </div>
+
             <a
               href="https://cinema-vibes.vercel.app"
               target="_blank"
@@ -61,6 +101,29 @@ const Experience = () => {
               Find your new favorite film and vibe with the community of movie
               lovers!
             </p>
+
+            <div className="flex items-center flex-wrap gap-2 justify-start">
+              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+                Vanilla JS
+              </span>
+              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+                TailwindCSS
+              </span>
+
+              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+                Axios
+              </span>
+              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+                TMDB API
+              </span>
+              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+                YouTube API
+              </span>
+              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+                Vite
+              </span>
+            </div>
+
             <a
               href="https://cinema-vibes.vercel.app"
               target="_blank"

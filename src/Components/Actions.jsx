@@ -6,10 +6,10 @@ const Actions = () => {
     <div className="hidden fixed bottom-10 right-10  w-[200px] min-h-[200px] md:flex flex-col items-center justify-end space-y-4">
       <Tippy content="See my project">
         <a
-          href="https://cinema-vibes.vercel.app"
+          href="https://cinema-land.vercel.app"
           target="_blank"
           className="bg-[#C5FF41] hover:bg-[#6f9c05] text-black font-bold py-2 px-4 rounded">
-          Cinema Vibes
+          Cinema Land
         </a>
       </Tippy>
 
