@@ -22,7 +22,7 @@ function ContactForm() {
       <h1 className="oswald uppercase text-8xl w-[60%] text-[#998f8fdf]">
         CONNECT
       </h1>
-
+<br />
       <p>Please feel free to reach out to me if you want to know more.</p>
       <br />
 

@@ -64,7 +64,7 @@ const Experience = () => {
             </div>
 
             <a
-              href="https://cinema-vibes.vercel.app"
+              href="https://cinema-land.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full">
