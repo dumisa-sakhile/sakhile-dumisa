@@ -1,6 +1,9 @@
 import Content from "./Components/Content";
 import Profile from "./Components/Profile";
 import Actions from "./Components/Actions";
+import { inject } from "@vercel/analytics";
+
+inject();
 
 const App = () => {
   return (
