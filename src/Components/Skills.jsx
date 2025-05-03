@@ -35,13 +35,12 @@ const Skills = () => {
             target="_blank"
             className="hover:scale-105">
             <img
-              src="https://www.svgrepo.com/show/452185/css-3.svg"
+              src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Official_CSS_Logo.svg"
               alt="css"
               className="w-10"
             />
           </a>
         </Tippy>
-       
       </div>
       <br />
 
@@ -155,6 +154,20 @@ const Skills = () => {
             />
           </a>
         </Tippy>
+
+        {/* nest */}
+        <Tippy content="Nest.js">
+          <a
+            href="https://nestjs.com/"
+            target="_blank"
+            className="hover:scale-105">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg"
+              alt="nest.js"
+              className="w-10"
+            />
+          </a>
+        </Tippy>
       </div>
 
       <br />
@@ -190,7 +203,7 @@ const Skills = () => {
           </a>
         </Tippy>
 
-        {/* mysql */}
+        {/* mysql
         <Tippy content="MySQL">
           <a
             href="https://www.mysql.com/"
@@ -202,9 +215,9 @@ const Skills = () => {
               className="w-10"
             />
           </a>
-        </Tippy>
+        </Tippy> */}
 
-        {/* postgres */}
+        {/* postgres
         <Tippy content="PostgreSQL">
           <a
             href="https://www.postgresql.org/"
@@ -216,7 +229,7 @@ const Skills = () => {
               className="w-10"
             />
           </a>
-        </Tippy>
+        </Tippy> */}
 
         {/* sqlite */}
         <Tippy content="SQLite">

@@ -1,7 +1,5 @@
-import AOS from "aos";
-import "aos/dist/aos.css";
 
-AOS.init();
+
 const Experience = () => {
   return (
     <div data-aos="fade-up">

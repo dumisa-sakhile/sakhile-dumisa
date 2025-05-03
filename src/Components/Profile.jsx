@@ -23,8 +23,7 @@ const Profile = () => {
       </h1>
 
       <p className="text-lg inter-regular w-[90%] text-white md:text-gray-600 text-center">
-        An intermediate MERN (MongoDB, Express, React, Node) Stack & Next.js
-        Developer
+        Junior FullStack & MERN (MongoDB, Express, React, Node) Stack Developer
       </p>
 
       <Socials />

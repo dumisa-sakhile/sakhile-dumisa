@@ -15,7 +15,7 @@ const Timeline = () => {
       </main>
 
       <main>
-        <h1 className="text-8xl oswald">+7</h1>
+        <h1 className="text-8xl oswald">+17</h1>
         <p className="text-sm inter-regular text-[#998F8F]">
           Projects completed
         </p>
