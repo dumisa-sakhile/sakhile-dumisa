@@ -13,8 +13,8 @@ const Intro = () => {
       </h1>
 
       <p className="text-[#998F8F] text-lg md:w-[40%] roboto-condensed-regular">
-        I am a Junior FullStack Developer with a passion for building web
-        applications. I have experience in both frontend and backend
+        I am a FullStack Developer with a passion for building web
+        applications. I have experience in front-end and back-end
         development, and I am always eager to learn new technologies and improve
         my skills.
       </p>
