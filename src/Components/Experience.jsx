@@ -1,16 +1,13 @@
-import AOS from "aos";
-import "aos/dist/aos.css";
 
-AOS.init();
 const Experience = () => {
   return (
-    <div data-aos="fade-up">
+    <div >
       <h1 className="oswald  uppercase text-8xl w-[60%] text-[#998f8fdf]">
         Projects
       </h1>
 
       <br />
-      <p className="text-[#998F8F] text-lg md:w-[40%] inter-regular">
+      <p className="text-[#998F8F] text-lg md:w-[40%] roboto-condensed-regular">
         Please note that Cinema Land is the latest and upgraded version of
         Cinema Vibes.
       </p>
@@ -28,40 +25,40 @@ const Experience = () => {
               Explore now!
             </p>
             <div className="flex items-center flex-wrap gap-2 justify-start *:capitalize">
-              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+              <span className="text-white roboto-condensed-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-poroboto-condensed">
                 ReactJS
               </span>
-              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+              <span className="text-white roboto-condensed-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-poroboto-condensed">
                 TailwindCSS
               </span>
-              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+              <span className="text-white roboto-condensed-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-poroboto-condensed">
                 TypeScript
               </span>
-              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+              <span className="text-white roboto-condensed-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-poroboto-condensed">
                 Framer Motion
               </span>
-              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+              <span className="text-white roboto-condensed-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-poroboto-condensed">
                 React-router-dom
               </span>
-              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+              <span className="text-white roboto-condensed-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-poroboto-condensed">
                 React-helmet-async
               </span>
-              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+              <span className="text-white roboto-condensed-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-poroboto-condensed">
                 Tanstack Query
               </span>
-              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+              <span className="text-white roboto-condensed-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-poroboto-condensed">
                 Axios
               </span>
-              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+              <span className="text-white roboto-condensed-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-poroboto-condensed">
                 Shadcn-ui
               </span>
-              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+              <span className="text-white roboto-condensed-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-poroboto-condensed">
                 TMDB API
               </span>
-              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+              <span className="text-white roboto-condensed-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-poroboto-condensed">
                 YouTube API
               </span>
-<span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+<span className="text-white roboto-condensed-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-poroboto-condensed">
                 Clerk Auth
               </span>
             </div>
@@ -106,23 +103,23 @@ const Experience = () => {
             </p>
 
             <div className="flex items-center flex-wrap gap-2 justify-start">
-              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+              <span className="text-white roboto-condensed-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-poroboto-condensed">
                 Vanilla JS
               </span>
-              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+              <span className="text-white roboto-condensed-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-poroboto-condensed">
                 TailwindCSS
               </span>
 
-              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+              <span className="text-white roboto-condensed-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-poroboto-condensed">
                 Axios
               </span>
-              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+              <span className="text-white roboto-condensed-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-poroboto-condensed">
                 TMDB API
               </span>
-              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+              <span className="text-white roboto-condensed-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-poroboto-condensed">
                 YouTube API
               </span>
-              <span className="text-white inter-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-pointer">
+              <span className="text-white roboto-condensed-light text-sm rounded-full bg-black  shadow-md px-3 py-2  hover:bg-opacity-75 cursor-poroboto-condensed">
                 Vite
               </span>
             </div>

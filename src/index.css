@@ -1,69 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer utilities {
 
-/* Light Variations */
-.inter-light {
-  font-family: "Inter", sans-serif;
+.roboto-condensed-light {
+  font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 300; /* Light */
+  font-weight: 300;
   font-style: normal;
 }
 
-.inter-extra-light {
-  font-family: "Inter", sans-serif;
+.roboto-condensed-regular {
+  font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200; /* Extra Light */
+  font-weight: 400;
   font-style: normal;
 }
 
-/* Regular Variations */
-.inter-regular {
-  font-family: "Inter", sans-serif;
+.roboto-condensed-medium {
+  font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400; /* Regular */
+  font-weight: 500;
   font-style: normal;
 }
 
-/* Medium Variations */
-.inter-medium {
-  font-family: "Inter", sans-serif;
+.roboto-condensed-semi-bold {
+  font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500; /* Medium */
+  font-weight: 600;
   font-style: normal;
 }
 
-/* Semi-Bold Variations */
-.inter-semi-bold {
-  font-family: "Inter", sans-serif;
+.roboto-condensed-bold {
+  font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600; /* Semi-Bold */
+  font-weight: 700;
   font-style: normal;
 }
 
-/* Bold Variations */
-.inter-bold {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700; /* Bold */
-  font-style: normal;
-}
 
-/* Extra-Bold Variations */
-.inter-extra-bold {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800; /* Extra Bold */
-}
-
-/* Black Variations */
-.inter-black {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900; /* Black */
-}
 .oswald {
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
@@ -74,5 +51,5 @@
 }
 
 body {
-  @apply inter-extra-light;
+  @apply roboto-condensed-regular text-sm;
 }

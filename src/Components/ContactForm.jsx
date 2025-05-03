@@ -1,8 +1,5 @@
 import { useForm, ValidationError } from "@formspree/react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
-AOS.init();
 function ContactForm() {
   const [state, handleSubmit] = useForm("xovaoaje");
   if (state.succeeded) {
@@ -62,7 +59,7 @@ function ContactForm() {
 
       <label
         htmlFor="message"
-        className="hidden inter-regular text-white ml-4">
+        className="hidden roboto-condensed-regular text-white ml-4">
         Message
       </label>
 

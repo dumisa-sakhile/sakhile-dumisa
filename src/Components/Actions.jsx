@@ -25,7 +25,7 @@ const Actions = () => {
       <Tippy content="Email me">
         <a
           href="mailto:dumisa.message@outlook.com"
-          className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-8 rounded">
+          className="bg-orange-500 hover:bg-orange-600 text-black font-bold py-2 px-8 rounded">
           Email me
         </a>
       </Tippy>

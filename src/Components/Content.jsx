@@ -3,13 +3,19 @@ import ContactForm from "./ContactForm";
 import Intro from "./Intro";
 import Skills from "./Skills";
 import Timeline from "./Timeline";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+
 
 const Content = () => {
   return (
-    <div className="md:fixed w-full h-full overflow-y-auto p-10 pt-24">
+    <div
+      data-aos="fade-up"
+      data-aos-duration="3000"
+      className="md:fixed w-full h-full overflow-y-auto p-10 pt-24">
       <Intro />
-      <br />
-      <br />
       <br />
       <br />
       <Timeline />
@@ -25,7 +31,7 @@ const Content = () => {
       <ContactForm />
       <br />
       <br />
-      <p className="text-sm inter-light text-white text-center w-full md:w-[25%] ">
+      <p className="text-sm roboto-condensed-light text-white text-center w-full md:w-[25%] ">
         Design inspired by &nbsp;
         <a
           href="https://x.com/Mejed_k"
@@ -34,7 +40,8 @@ const Content = () => {
           Mejed Alkoutaini
         </a>
       </p>
-      <br /><br />
+      <br />
+      <br />
     </div>
   );
 }

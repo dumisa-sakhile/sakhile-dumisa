@@ -76,7 +76,7 @@ const Skills = () => {
       </div>
       <br />
 
-      <p className="text-[#998F8F] text-lg md:w-[40%]">FrontEnd Development:</p>
+      <p className="text-[#998F8F] text-lg md:w-[40%]">Frontend Development:</p>
       <br />
       <div className="md:w-[40%] flex gap-2 items-start justify-start flex-wrap md:gap-6 *:bg-[#0b0808df]  *:p-4 *:rounded-lg *:ring-[1px] *:ring-[#353334]">
         {/* react */}
