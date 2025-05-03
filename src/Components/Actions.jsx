@@ -22,11 +22,13 @@ const Actions = () => {
         </a>
       </Tippy>
 
-      <Tippy content="Email me">
+      <Tippy content="LinkedIn Profile">
         <a
-          href="mailto:dumisa.message@outlook.com"
+          href="https://www.linkedin.com/in/sakhile-dumisa/"
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-orange-500 hover:bg-orange-600 text-black font-bold py-2 px-8 rounded">
-          Email me
+          LinkedIn
         </a>
       </Tippy>
     </div>
