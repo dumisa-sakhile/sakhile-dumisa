@@ -1,9 +1,17 @@
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 
 const Actions = () => {
   return (
-    <div className="hidden fixed bottom-10 right-10  w-[200px] min-h-[200px] md:flex flex-col items-center justify-end space-y-4">
+    <div
+      className="hidden fixed bottom-10 right-10  w-[200px] min-h-[200px] md:flex flex-col items-center justify-end space-y-4"
+      data-aos="fade-down"
+      data-aos-offset="200"
+      data-aos-duration="3000">
       <Tippy content="See my project">
         <a
           href="https://cinema-land.vercel.app"
