@@ -26,7 +26,7 @@ const Profile = () => {
       </h1>
 
       <p className="text-lg roboto-condensed-regular w-[90%] text-white md:text-gray-600 text-center">
-        Junior FullStack & MERN (MongoDB, Express, React, Node) Stack Developer
+         FullStack & MERN (MongoDB, Express, React, Node) Stack Developer
       </p>
 
       <Socials />
