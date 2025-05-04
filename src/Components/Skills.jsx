@@ -238,7 +238,7 @@ const Skills = () => {
             target="_blank"
             className="hover:scale-105">
             <img
-              src="https://www.svgrepo.com/show/354381/sqlite.svg"
+              src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg"
               alt="sqlite"
               className="w-10"
             />

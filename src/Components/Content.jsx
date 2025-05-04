@@ -31,10 +31,10 @@ const Content = () => {
       <ContactForm />
       <br />
       <br />
-      <p className="text-sm roboto-condensed-light text-white text-center w-full md:w-[25%] ">
+      <p className="text-sm roboto-condensed-regular text-white text-center w-full md:w-[25%] ">
         Design inspired by &nbsp;
         <a
-          href="https://x.com/Mejed_k"
+          href="https://www.framer.com/@mejed-alkoutaini/"
           target="_blank"
           className="text-orange-600 cursor-pointer">
           Mejed Alkoutaini
