@@ -1,5 +1,5 @@
 
-const Experience = () => {
+const Projects = () => {
   return (
     <div >
       <h1 className="oswald  uppercase text-8xl w-[60%] text-[#998f8fdf]">
@@ -154,4 +154,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Projects;

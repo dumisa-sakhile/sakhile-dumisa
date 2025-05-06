@@ -79,7 +79,7 @@ function ContactForm() {
         <button
           type="submit"
           disabled={state.submitting}
-          className="bg-orange-500 hover:bg-orange-600 text-black font-bold py-2 px-4 rounded w-full">
+          className="bg-[#C5FF41] hover:bg-[#6f9c05] text-black font-bold py-2 px-4 rounded w-full">
           Send Message
         </button>
       </div>

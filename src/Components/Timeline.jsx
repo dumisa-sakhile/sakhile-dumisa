@@ -19,7 +19,7 @@ const Timeline = () => {
       </main>
 
       <main>
-        <h1 className="text-8xl oswald">+5</h1>
+        <h1 className="text-8xl oswald">+{new Date().getFullYear() - 2020}</h1>
         <p className="text-sm roboto-condensed-regular text-[#998F8F]">
           Year of Experience in web Development
         </p>

@@ -1,4 +1,4 @@
-import Experience from "./Experience";
+import Projects from "./Projects";
 import ContactForm from "./ContactForm";
 import Intro from "./Intro";
 import Skills from "./Skills";
@@ -21,7 +21,7 @@ const Content = () => {
       <Timeline />
       <br />
       <br />
-      <Experience />
+      <Projects />
       <br />
       <br />
       <Skills />
@@ -36,7 +36,7 @@ const Content = () => {
         <a
           href="https://www.framer.com/@mejed-alkoutaini/"
           target="_blank"
-          className="text-orange-600 cursor-pointer">
+          className="text-orange-600 cursor-pointer font-bold">
           Mejed Alkoutaini
         </a>
       </p>
