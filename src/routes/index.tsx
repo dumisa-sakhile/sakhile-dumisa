@@ -14,13 +14,13 @@ export const Route = createFileRoute("/")({
 
 function App() {
   return (
-    <main className="w-full min-h-screen bg-[#151312] text-white flex flex-col md:flex-row  bricolage-grotesque-thin">
-      {/* Left: Profile section (sticky on desktop, static on mobile) */}
+    <main className="w-full min-h-screen bg-[#151312] text-white flex flex-col md:flex-row bricolage-grotesque-thin">
+      {/* Left: Profile section */}
       <motion.section
         initial={{ x: -100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 1 }}
-        className="w-full md:w-[35%] h-auto md:h-screen flex items-center justify-end sticky top-0 z-10 bg-inherit">
+        className="w-full md:w-[35%] h-auto md:h-screen flex items-center justify-end static lg:sticky top-0 z-10 bg-inherit">
         <Profile />
       </motion.section>
 
@@ -29,13 +29,13 @@ function App() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
-        className="w-full md:w-[65%] h-full md:h-screen overflow-y-auto px-4 md:px-6 py-8 space-y-7 bg-inherit">
+        className="w-full md:w-[65%] flex-1 overflow-y-auto px-4 md:px-6 py-8 space-y-7 bg-inherit">
         <Intro />
-        <Timeline/>
-        <Actions/>
+        <Timeline />
+        <Actions />
         <Projects />
-        <Skills/>
-        <ContactForm/>
+        <Skills />
+        <ContactForm />
       </motion.section>
     </main>
   );

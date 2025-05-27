@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 const Projects = () => {
   const projectList = [
     {
@@ -66,6 +68,11 @@ const Projects = () => {
     },
   ];
 
+  const cardVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0 },
+  };
+
   return (
     <section className="text-white bricolage-grotesque-regular w-full">
       <h1 className="bricolage-grotesque-black uppercase text-4xl sm:text-6xl md:text-7xl mb-4 text-[#CCCCCC]">
@@ -89,9 +96,13 @@ const Projects = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
         {projectList.map((project, index) => (
-          <div
+          <motion.div
             key={index}
-            className={`grid grid-rows-[auto_1fr_auto_auto] h-full rounded-xl border ${project.color.border} ${project.color.cardBg} p-6`}>
+            className={`grid grid-rows-[auto_1fr_auto_auto] h-full rounded-xl border ${project.color.border} ${project.color.cardBg} p-6`}
+            variants={cardVariants}
+            initial="hidden"
+            animate="visible"
+            transition={{ duration: 0.5, delay: index * 0.2 }}>
             <h2 className="bricolage-grotesque-black text-4xl text-black mb-2">
               {project.name}
             </h2>
@@ -115,7 +126,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="block mt-auto">
-              <button className="w-full bricolage-grotesque-medium bg-black text-white py-2 rounded-lg hover:bg-gray-900 transition flex items-center justify-center gap-2">
+              <button className="w-full bricolage-grotesque-medium bg-black text-white py-2 rounded-full hover:bg-gray-900 transition flex items-center justify-center gap-2">
                 Visit Website
                 <svg
                   className="w-4 h-4"
@@ -129,7 +140,7 @@ const Projects = () => {
                 </svg>
               </button>
             </a>
-          </div>
+          </motion.div>
         ))}
       </div>
     </section>

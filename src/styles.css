@@ -105,7 +105,7 @@
   }
   
   body {
-    @apply text-sm overflow-hidden md:overflow-auto bg-[#151312] text-black;
+    @apply text-sm overflow-auto bg-[#151312] text-black;
   }
   
   ::-webkit-scrollbar {
