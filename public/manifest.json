@@ -1,6 +1,8 @@
 {
-  "short_name": "TanStack App",
-  "name": "Create TanStack App Sample",
+  "short_name": "Sakhile Dumisa",
+  "name": " Sakhile Dumisa - Portfolio",
+  "description": "Portfolio of Sakhile Dumisa, showcasing projects and skills in web development.",
+  "lang": "en",
   "icons": [
     {
       "src": "favicon.ico",
