@@ -10,6 +10,7 @@
     "test": "vitest run"
   },
   "dependencies": {
+    "@formspree/react": "^3.0.0",
     "@tailwindcss/vite": "^4.1.7",
     "@tanstack/react-router": "^1.114.3",
     "@tanstack/react-router-devtools": "^1.114.3",
