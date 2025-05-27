@@ -1,7 +1,7 @@
 
 const ProfileCard = () => {
   return (
-    <div className="mx-auto w-full max-w-xs bg-[#ECECEC] text-black rounded-[32px] shadow-lg p-6 flex flex-col items-center gap-4 md:max-w-sm lg:mr-[5%]">
+    <div className="mx-auto w-full max-w-xs bg-[#ECECEC] text-black rounded-[32px] shadow-lg p-6 flex flex-col items-center gap-4 md:max-w-sm lg:mr-[5%] mt-10 md:mt-0">
       {/* Logo and Brand */}
       <div className="flex items-center gap-3 mt-2 mb-1">
         <span className="text-4xl bricolage-grotesque-black">

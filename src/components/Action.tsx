@@ -43,7 +43,7 @@ const ActionLink = ({
 const Actions = () => {
   return (
     <motion.div
-      className="hidden fixed bottom-10 right-10 w-[160px] min-h-[160px] md:flex flex-col items-center justify-end space-y-3"
+      className="hidden absolute bottom-10 right-10 w-[160px] min-h-[160px] md:flex flex-col items-center justify-end space-y-3"
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}>

@@ -75,7 +75,7 @@ const Projects = () => {
 
   return (
     <section className="text-white bricolage-grotesque-regular w-full">
-      <h1 className="bricolage-grotesque-black uppercase text-4xl sm:text-6xl md:text-7xl mb-4 text-[#CCCCCC]">
+      <h1 className="bricolage-grotesque-black uppercase text-6xl md:text-7xl text-white leading-[1.1]">
         Projects
       </h1>
 
