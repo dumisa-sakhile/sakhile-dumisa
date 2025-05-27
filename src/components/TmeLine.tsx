@@ -19,7 +19,7 @@ const Timeline = () => {
   ];
 
   return (
-    <section className="w-full lg:w-[65%] h-full md:h-[200px] overflow-y-auto  px-4">
+    <section className="w-full lg:w-[65%] h-full md:h-[200px] overflow-y-auto  px-4 hidden md:block">
       <motion.div
         className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center"
         initial="hidden"

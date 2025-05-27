@@ -1,6 +1,6 @@
 const Intro = () => {
   return (
-    <section className="relative w-full py-12 pb-0 px-4 flex flex-col items-start justify-start">
+    <section className="relative w-full py-12 pb-0 px-4 hidden md:flex flex-col items-start justify-start">
       <div>
         <h2 className="bricolage-grotesque-black uppercase text-white text-3xl md:text-5xl lg:text-8xl">
           Fullstack
