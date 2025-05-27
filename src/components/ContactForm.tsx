@@ -56,7 +56,7 @@ function ContactForm() {
   if (state.succeeded) {
     return (
       <div
-        className="p-4 mb-6 text-sm text-black bg-[#C5FF41] hover:bg-[#6f9c05] py-4 px-4 rounded w-full max-w-[400px]"
+        className="p-4 mb-6 text-sm text-black bg-[#C5FF41] hover:bg-[#6f9c05] py-4 px-4 rounded w-full lg:w-[700px] transition-all duration-200"
         role="alert">
         <span className="font-medium">Successfully Sent:</span> Thank you for
         your message, I will get back to you shortly.
@@ -66,12 +66,14 @@ function ContactForm() {
 
   return (
     <form onSubmit={onSubmit} className="space-y-6 w-full max-w-[400px]">
-      <h1 className="bricolage-grotesque-black uppercase text-6xl md:text-7xl text-white leading-[1.1]">
-        LET US
-      </h1>
-      <h1 className="bricolage-grotesque-black uppercase text-6xl md:text-7xl text-[#998f8fdf] leading-[1.1]">
-        CONNECT
-      </h1>
+      <div className="flex items-center justify-content flex-wrap lg:w-[650px] gap-4 p-4 rounded-md mb-6">
+        <h1 className="bricolage-grotesque-black uppercase text-6xl md:text-7xl text-white leading-[1.1]">
+          LET's
+        </h1>
+        <h1 className="bricolage-grotesque-black uppercase text-6xl md:text-7xl text-[#998f8fdf] leading-[1.1]">
+          CONNECT
+        </h1>
+      </div>
       <p className="text-[#bcbcbc] text-sm md:text-base">
         Please feel free to reach out to me if you want to know more.
       </p>

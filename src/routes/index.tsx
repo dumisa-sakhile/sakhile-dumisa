@@ -36,6 +36,8 @@ function App() {
         <Projects />
         <Skills />
         <ContactForm />
+        <br />
+        <br />
       </motion.section>
     </main>
   );

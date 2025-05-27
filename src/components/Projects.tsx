@@ -7,7 +7,8 @@ const Projects = () => {
       description:
         "Trailer Base is a movie and TV trailer database that provides users with the latest trailers and information about their favorite movies and TV shows.",
       tech: [
-        "React",
+        "React.JS",
+        "TypeScript",
         "TailwindCSS",
         "Tanstack Router",
         "Tanstack Query",
@@ -20,8 +21,8 @@ const Projects = () => {
       ],
       url: "https://trailer-base.vercel.app",
       color: {
-        border: "border-purple-700",
-        cardBg: "bg-purple-600",
+        border: "border-purple-600",
+        cardBg: "bg-purple-500",
       },
     },
     {
@@ -74,7 +75,7 @@ const Projects = () => {
   };
 
   return (
-    <section className="text-white bricolage-grotesque-regular w-full">
+    <section className="w-full">
       <h1 className="bricolage-grotesque-black uppercase text-6xl md:text-7xl text-white leading-[1.1]">
         Projects
       </h1>
@@ -107,7 +108,7 @@ const Projects = () => {
               {project.name}
             </h2>
 
-            <p className="text-md roboto-condensed-regular text-black mb-4">
+            <p className="text-md bricolage-grotesque-regular text-black mb-4">
               {project.description}
             </p>
 
@@ -115,7 +116,7 @@ const Projects = () => {
               {project.tech.map((tech, idx) => (
                 <span
                   key={idx}
-                  className="text-sm roboto-condensed-regular bg-black text-white px-3 py-1 rounded-full shadow hover:bg-gray-700 hover:text-white transition-colors">
+                  className="text-sm roboto-condensed-regular bg-black text-white px-3 py-2 rounded-full shadow hover:bg-gray-700 hover:text-white transition-colors">
                   {tech}
                 </span>
               ))}
@@ -126,7 +127,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="block mt-auto">
-              <button className="w-full bricolage-grotesque-medium bg-black text-white py-2 rounded-full hover:bg-gray-900 transition flex items-center justify-center gap-2">
+              <button className="w-full bricolage-grotesque-medium bg-black text-white py-4 rounded-full hover:bg-gray-900 transition flex items-center justify-center gap-2 cursor-pointer">
                 Visit Website
                 <svg
                   className="w-4 h-4"
