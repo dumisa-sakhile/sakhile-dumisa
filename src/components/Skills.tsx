@@ -85,16 +85,6 @@ const skills = [
         link: "https://www.w3schools.com/sql/sql_intro.asp",
       },
       {
-        name: "MySQL",
-        icon: "https://www.svgrepo.com/show/303251/mysql-logo.svg",
-        link: "https://www.mysql.com/",
-      },
-      {
-        name: "PostgreSQL",
-        icon: "https://www.svgrepo.com/show/354200/postgresql.svg",
-        link: "https://www.postgresql.org/",
-      },
-      {
         name: "SQLite",
         icon: "https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg",
         link: "https://www.sqlite.org/",
@@ -125,28 +115,30 @@ const Skills = () => {
       </p>
       <br />
 
-      {skills.map(({ category, items }) => (
-        <div key={category}>
-          <p className="text-[#998F8F] text-lg md:w-[40%] roboto-condensed-light">
-            {category}:
-          </p>
-          <br />
-          <div className="md:w-[40%] flex gap-2 items-start justify-start flex-wrap md:gap-6 *:bg-[rgba(11,8,8,0.88)] *:p-4 *:rounded-lg *:ring-[1px] *:ring-[#353334]">
-            {items.map(({ name, icon, link }) => (
-              <Tooltip key={name} label={name}>
-                <a
-                  href={link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:scale-105">
-                  <img src={icon} alt={name.toLowerCase()} className="w-10" />
-                </a>
-              </Tooltip>
-            ))}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {skills.map(({ category, items }) => (
+          <div key={category}>
+            <p className="text-[#998F8F] text-lg md:w-[40%] roboto-condensed-light">
+              {category}:
+            </p>
+            <br />
+            <div className="md:w-[40%] flex gap-2 items-start justify-start flex-wrap md:gap-6 *:bg-[rgba(11,8,8,0.88)] *:p-4 *:rounded-lg *:ring-[1px] *:ring-[#353334]">
+              {items.map(({ name, icon, link }) => (
+                <Tooltip key={name} label={name}>
+                  <a
+                    href={link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:scale-105">
+                    <img src={icon} alt={name.toLowerCase()} className="w-10" />
+                  </a>
+                </Tooltip>
+              ))}
+            </div>
+            <br />
           </div>
-          <br />
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };
